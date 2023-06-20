@@ -18,11 +18,10 @@ img {
   max-width: 100%;
 }
 
-ul > a {
+a {
   padding-left: 10px;
   color: white;
   text-decoration: none;
-  font-size: 0.8rem;
 }
 
 button {
@@ -104,17 +103,11 @@ p {
   color: white;
 }
 
-.column-div {
-  min-height: 500px;
-}
-
 .big-col {
-  min-height: 400px;
   width: 65%;
 }
 
 .small-col {
-  min-height: 400px;
   width: 35%;
   color: black;
 }
@@ -141,29 +134,27 @@ p {
 
 .blackbkg1 {
   background-color: #23272a;
-  min-height: 500px;
 }
 
 .pink-col {
   min-height: 450px;
-  width: 30%;
+  width: 25%;
   margin-top: -10px;
-  background-color: rgb(240, 128, 128);
-  border: dotted black 2px;
+}
+
+.italianflag {
+  width: 1rem;
+  margin-right: 5px;
 }
 
 .blue-col {
-  min-height: 450px;
-  width: 70%;
+  width: 75%;
   margin-top: -10px;
-  background-color: rgb(32, 178, 170);
-  border: dotted black 2px;
 }
 
 .little-col {
   height: 100%;
   width: 25%;
-  border: dotted white 2px;
 }
 
 .blackbkg2 {
@@ -174,14 +165,78 @@ p {
 }
 
 .footersection {
-  background-color: aquamarine;
-  height: 80px;
   justify-content: space-between;
   align-items: center;
 }
 
 .footerdiv {
-  background-color: #ffb6c1;
   padding: 10px;
-  border: dotted black;
+}
+
+.footertitle {
+  color: rgb(142, 161, 225);
+  margin-top: 0;
+}
+
+i {
+  margin: 5px;
+}
+
+.h4title {
+  text-align: center;
+  color: rgb(142, 161, 225);
+}
+
+.footer-li {
+  list-style: none;
+}
+
+/* tentativo di fare un menu a scomparsa */
+
+div#hormenu {
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+div#hormenu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+div#hormenu li {
+  width: 100px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+div#hormenu a {
+  display: block;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+div#hormenu a:hover {
+  background-color: #000033;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+div#hormenu li ul {
+  display: none;
+}
+
+div#hormenu li:hover ul {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  width: 150px;
+  padding: 0;
+  margin: 0 0 0 -1px;
+  background: white;
 }
