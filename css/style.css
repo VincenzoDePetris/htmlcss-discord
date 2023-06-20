@@ -26,11 +26,9 @@ ul > a {
 }
 
 button {
-  border-radius: 15px;
+  border-radius: 30px;
   padding: 5px 15px;
   border: none;
-}
-.small-button {
 }
 
 .flex {
@@ -66,16 +64,40 @@ button {
   text-align: end;
 }
 
+h1 {
+  font-size: 2.5rem;
+}
+
 .bluebkg {
+  background-image: url(../img/jumbo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: rgb(0, 0, 139);
   min-height: 500px;
 }
 
 .single-box {
-  background-color: rgb(238, 130, 238);
   min-height: 400px;
-  border: dotted black 4px;
-  border-radius: 10px;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  line-height: 25px;
+  font-size: large;
+}
+
+.start-button {
+  margin: 50px;
+}
+
+.big-button {
+  padding: 15px;
+  margin: 10px;
+  font-size: large;
+}
+
+.black-button {
+  background-color: black;
+  color: white;
 }
 
 .column-div {
