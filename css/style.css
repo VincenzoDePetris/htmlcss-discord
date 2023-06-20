@@ -18,8 +18,11 @@ img {
   max-width: 100%;
 }
 
-a {
+.header-li {
   padding-left: 10px;
+  list-style: none;
+}
+a {
   color: white;
   text-decoration: none;
 }
@@ -42,6 +45,10 @@ button {
 
 .main-secion {
   padding: 2rem 0;
+}
+
+header > section > div > ul {
+  justify-content: space-around;
 }
 
 .header-section {
@@ -181,7 +188,7 @@ p {
 
 .footertitle {
   color: rgb(142, 161, 225);
-  margin-top: 0;
+  margin-top: 5px;
 }
 
 i {
@@ -189,12 +196,16 @@ i {
 }
 
 .h4title {
-  text-align: center;
   color: rgb(142, 161, 225);
+  padding-left: 2%;
 }
 
 .footer-li {
   list-style: none;
+}
+
+ul {
+  padding-left: 0;
 }
 
 /* tentativo di fare un menu a scomparsa */
