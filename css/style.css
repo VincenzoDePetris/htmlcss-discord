@@ -68,6 +68,10 @@ h1 {
   font-size: 2.5rem;
 }
 
+p {
+  font-size: 1.5rem;
+}
+
 .bluebkg {
   background-image: url(../img/jumbo.png);
   background-repeat: no-repeat;
@@ -79,7 +83,7 @@ h1 {
 .single-box {
   min-height: 400px;
   text-align: center;
-  width: 50%;
+  width: 40%;
   margin: auto;
   line-height: 25px;
   font-size: large;
@@ -107,30 +111,32 @@ h1 {
 .big-col {
   min-height: 400px;
   width: 65%;
-  background-color: rgb(30, 144, 255);
-  border: dotted black 2px;
 }
 
 .small-col {
   min-height: 400px;
   width: 35%;
-  background-color: pink;
-  border: dotted black 2px;
+  color: black;
 }
 
 .graybkg {
-  background-color: rgb(211, 211, 211);
+  background-color: rgb(246, 246, 246);
 }
 
 .big-box {
-  background-color: rgb(211, 211, 211);
-  height: 800px;
+  background-color: rgb(246, 246, 246);
 }
 
 .green-box {
+  padding-bottom: 50px;
   height: 90%;
-  background-color: rgb(34, 139, 34);
-  border: dotted black 2px;
+  text-align: center;
+  color: #23272a;
+}
+
+.blue-button {
+  background-color: rgb(142, 161, 225);
+  color: white;
 }
 
 .blackbkg1 {
