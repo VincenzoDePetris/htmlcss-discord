@@ -30,11 +30,6 @@ button {
   border: none;
 }
 
-.bgsvg {
-  background-image: url(../img/wave.svg);
-  background-size: contain;
-}
-
 .imgbgsvg {
   background-image: url(../img/stars.svg);
   background-position: top;
