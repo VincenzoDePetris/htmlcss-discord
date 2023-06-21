@@ -47,6 +47,10 @@ button {
   padding: 2rem 0;
 }
 
+.bgbottom {
+  background-position: bottom;
+}
+
 header > section > div > ul {
   justify-content: space-around;
 }
@@ -55,6 +59,10 @@ header > section > div > ul {
   height: 100px;
   justify-content: space-between;
   align-items: center;
+}
+
+.svg {
+  background-image: url(../img/wave.svg);
 }
 
 .div-header {
@@ -89,7 +97,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(0, 0, 139);
-  min-height: 500px;
+  min-height: 400px;
 }
 
 .single-box {
@@ -99,6 +107,10 @@ p {
   margin: auto;
   line-height: 25px;
   font-size: large;
+}
+
+.img2 {
+  text-align: right;
 }
 
 .start-button {
@@ -175,6 +187,11 @@ p {
   margin-top: 1px;
   padding-top: 10px;
   align-items: flex-end;
+}
+
+.h2title {
+  padding-top: 30px;
+  font-size: 2rem;
 }
 
 .footersection {
